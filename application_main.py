@@ -30,4 +30,4 @@ if __name__ == '__main__':
     
     aggregated_results.show()
     
-    logger.warn("this is the end of main... testing..url updated")
+    logger.warn("this is the end of main... testing..url updated final")
