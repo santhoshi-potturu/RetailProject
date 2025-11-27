@@ -50,6 +50,7 @@ pipeline {
                     zip -r retailproject.zip . \
                     -x "${VENV}/*" \
                     -x ".git/*"
+
                 '''
             }
         }
