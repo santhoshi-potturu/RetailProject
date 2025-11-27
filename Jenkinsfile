@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        LABS = credentials('labcreds')
+        LABS = credentials('labcred')
 
         // EC2 Java setup
         JAVA_HOME = '/usr/lib/jvm/java-21-openjdk'
