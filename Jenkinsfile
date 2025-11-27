@@ -59,7 +59,7 @@ pipeline {
             steps {
                 sh '''
                     sshpass -p "$LABS_PSW" scp -o StrictHostKeyChecking=no \
-                    retailproject.zip $LABS_USR@g02.itversity.com:/home/itv012419/retailproject
+                    retailproject.zip $LABS_USR@g01.itversity.com:/home/itv012419/retailproject
                 '''
             }
         }
